@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEA7A0A6-93E9-16C5-8D32-4A3FE8DA9027" name="Project">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:59:08 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project-no" id="8A46EB95-5D93-6346-9039-3454786A05A2">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:59:13 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-title" id="0FE9FAB9-BD12-4B98-3C58-37CCD0CEF88D">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:59:27 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-no1" id="D38239EB-A1CA-293D-CF19-4CB63AD7A58D">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 01:11:33 UTC</createdTime>
+<generatorID>D27E86CC-630A-EF77-62CC-8189282646A9</generatorID>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8A46EB95-5D93-6346-9039-3454786A05A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept-no" id="4DA91954-ADE0-C5E6-09A8-648D12D1B1D4">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 01:12:39 UTC</createdTime>
+<generatorID>EE86269D-FF0D-B4D9-95C4-7349D9D74108</generatorID>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>695FBDB6-646D-1F02-07B2-AC4D28D6DBA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee-id" id="87AE534C-AF23-F357-5A84-E2FEF3C01D86">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 01:13:07 UTC</createdTime>
+<generatorID>9CC5AE48-08F8-3F46-9323-DC939B5CA6DD</generatorID>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F9F7E0D1-3D11-5E50-DE73-2962C9D205BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78B6A221-C04D-B4C9-5DC8-7A7CC8FAF95F" name="Project PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:59:24 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A46EB95-5D93-6346-9039-3454786A05A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

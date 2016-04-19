@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F7B2E58-5FBC-2332-F73F-E66366960414" name="ProjEmp_CurProj">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>181FDFAE-98E4-026D-7A23-0C7F0BC2778C</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="projemp_curproj_id" id="FB05180D-D631-3535-AA68-EF41B32BBB93">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>0B20B05F-BD68-1028-F092-A24A738B1E2E</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project_project_no" id="00323555-C221-70A4-1AF4-13E74C743C4C">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>98E57EF2-E64A-EC8E-5E3F-AF8E8F1C69D3</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C877FD0-1FD5-4366-CAB5-451155BC97EA" referredColumn="580819C7-9CFB-F51E-4EAC-F0ABFE9A67D1"/>
+</associations>
+</Column>
+<Column name="Person_person_id" id="64AFA827-856A-97B1-E592-1138289E58C3">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>E1381505-1DB9-29C8-D3E4-A75F40C69712</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4BA1489-2490-96EF-9FDD-7D81A3D13C96" referredColumn="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2903FE76-0425-94BF-E723-A8EB3DFEBB8B" name="ProjEmp_CurProj_PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>03137826-73EB-DB38-B017-CD3DEBAFF142</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB05180D-D631-3535-AA68-EF41B32BBB93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CE08499-0491-1D52-7679-824815640657" name="ProjEmp_CurProj_Person_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>D2A43C7F-FE70-EE19-AE8E-62A4F244C80D</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64AFA827-856A-97B1-E592-1138289E58C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEFD71C5-48B3-C1BB-6862-25D2BB3B6D9A" name="ProjEmp_CurProj_Project_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>ABFA1893-C37E-EBB6-5A63-7C74921E3E00</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00323555-C221-70A4-1AF4-13E74C743C4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

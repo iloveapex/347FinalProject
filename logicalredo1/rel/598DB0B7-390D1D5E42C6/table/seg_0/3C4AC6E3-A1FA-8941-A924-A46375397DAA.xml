@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C4AC6E3-A1FA-8941-A924-A46375397DAA" name="Parent_Child">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>60B03736-E4D7-D280-58D3-9E7AADA99841</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="parent_child_id" id="2082215A-FCD6-5B76-C046-45CC9C6D5517">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>638E0574-518D-76E2-56C3-B745804091BE</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="D8A681F5-981B-E5CE-C990-1EDCE09DF4EA">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>FE509DDF-5CAB-2369-A68D-896A3D209166</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B9B805A-9A19-A033-E126-D88FDCD661F7" referredColumn="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C365C8-FB4A-55A7-A3F2-8A739EBBCA82" name="Parent_Child_PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>ADCE6516-A977-E3E0-7F64-2B1817DCB4E1</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2082215A-FCD6-5B76-C046-45CC9C6D5517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="273F709B-4DCF-B84C-C7D2-17A7EB61C5F6" name="Parent_Child_Person_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>0DD6AC29-EBE0-66AA-5FFA-38EC3BA97C3A</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8A681F5-981B-E5CE-C990-1EDCE09DF4EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

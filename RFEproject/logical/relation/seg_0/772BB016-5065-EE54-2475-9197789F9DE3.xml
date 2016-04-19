@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="772BB016-5065-EE54-2475-9197789F9DE3">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 01:40:06 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<engineerTo>
+<item key="C163B8F4-9876-CA6E-9495-08D0C12EFFAC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0EAF8FBF-5A0E-EEE3-1DAE-FDC9552679FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AFD860DF-AE3F-0DE1-94F0-21C1B556AA61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

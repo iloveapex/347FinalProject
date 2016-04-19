@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAAD065A-2986-FFE6-D0D1-5F2E083BF68D" name="Project">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:10 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_no" id="89C1BD55-EED9-26A0-5644-E3A47FA28740">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:15 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_title" id="3ADCFFE5-44F5-7B39-346B-DB553932E996">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:26 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-active" id="CEFF5136-86E7-974A-0B12-310095C865A1">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:35 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-month" id="DDE84219-2F32-32DB-B49A-DE97DCF12EA3">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:44 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-day" id="72FE34C8-7FAD-7F0C-0DC1-7502433EC9CC">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:52 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-year" id="3E6A37E7-2CF3-D2E2-C74D-398AB97517C9">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:22:01 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est-person-hours" id="64D385D3-BC1E-F8C7-4B7E-1390058F644D">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:22:09 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="8758D497-2463-60A2-3BC7-AB79986E0F69">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:24:26 UTC</createdTime>
+<generatorID>5DF3B9B3-0C1F-5822-7070-94C8EC8179A3</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9BDE2B26-F55E-AF47-8D93-05F32B0C8BF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id" id="C3C58B9D-8153-B574-4121-6D413DBB656A">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:34:14 UTC</createdTime>
+<generatorID>46981AD4-E5EA-72EC-3577-E4E2AAE198DD</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A51B19E-49EC-0DF1-D879-9980EDEC2C85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46A850FB-4DD8-C8EF-F2AD-1214D23F95EE" name="Project PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:21:25 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="598DB0B7-E177-0434-96D6-390D1D5E42C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89C1BD55-EED9-26A0-5644-E3A47FA28740</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

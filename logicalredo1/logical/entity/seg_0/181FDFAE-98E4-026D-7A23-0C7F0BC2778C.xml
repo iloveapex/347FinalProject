@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="181FDFAE-98E4-026D-7A23-0C7F0BC2778C" name="ProjEmp_CurProj">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:20:38 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="projemp_curproj_id" id="0B20B05F-BD68-1028-F092-A24A738B1E2E">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:20:47 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_no" id="98E57EF2-E64A-EC8E-5E3F-AF8E8F1C69D3">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:24:18 UTC</createdTime>
+<generatorID>ABFA1893-C37E-EBB6-5A63-7C74921E3E00</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>89C1BD55-EED9-26A0-5644-E3A47FA28740</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id" id="E1381505-1DB9-29C8-D3E4-A75F40C69712">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:33:59 UTC</createdTime>
+<generatorID>D2A43C7F-FE70-EE19-AE8E-62A4F244C80D</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A51B19E-49EC-0DF1-D879-9980EDEC2C85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03137826-73EB-DB38-B017-CD3DEBAFF142" name="ProjEmp_CurProj PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:20:59 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B20B05F-BD68-1028-F092-A24A738B1E2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

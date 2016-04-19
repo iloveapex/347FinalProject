@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F972601E-F535-EC91-C5FE-263F068C15DB" mainViewID="1495B88E-8F6A-B087-24E2-F25EDF864F82">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:44:51 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

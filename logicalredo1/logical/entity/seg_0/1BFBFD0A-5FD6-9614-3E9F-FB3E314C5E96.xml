@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BFBFD0A-5FD6-9614-3E9F-FB3E314C5E96" name="Department">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:23:02 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_no" id="9BDE2B26-F55E-AF47-8D93-05F32B0C8BF6">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:23:08 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_name" id="4728FA34-E848-3BD9-AF0C-8BB4CD4D141B">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:23:16 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC2C945C-A7A8-7A3E-D8FD-9054141083DF" name="Department PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:23:15 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB1CC554-86BB-B2A8-3918-273710FB5F28" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BDE2B26-F55E-AF47-8D93-05F32B0C8BF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

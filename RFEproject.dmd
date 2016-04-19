@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RFEproject" id="05AA3CAF-F190-7F9D-354D-8E8028F6BA3E" version="3.5">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-26 00:44:51 UTC</createdTime>
+<ownerDesignName>RFEproject</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>05AA3CAF-F190-7F9D-354D-8E8028F6BA3E</designId>
+</OSDM_Design>

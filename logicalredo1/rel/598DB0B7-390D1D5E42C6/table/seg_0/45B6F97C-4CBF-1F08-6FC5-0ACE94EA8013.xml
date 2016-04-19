@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45B6F97C-4CBF-1F08-6FC5-0ACE94EA8013" name="Project">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>BAAD065A-2986-FFE6-D0D1-5F2E083BF68D</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_no" id="580819C7-9CFB-F51E-4EAC-F0ABFE9A67D1">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>89C1BD55-EED9-26A0-5644-E3A47FA28740</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="6C37AA81-8D25-0FCA-7B24-8FAFDF48C026">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>3ADCFFE5-44F5-7B39-346B-DB553932E996</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project-active" id="A3CEDB4E-470B-6FE6-CA28-725D5FF1A99C">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>CEFF5136-86E7-974A-0B12-310095C865A1</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end-date-month" id="3D2EC55E-2FC4-2A98-0EF5-44F04394166F">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>DDE84219-2F32-32DB-B49A-DE97DCF12EA3</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end-date-day" id="E47BE938-9B09-DDA5-CF7F-F7357476351D">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>72FE34C8-7FAD-7F0C-0DC1-7502433EC9CC</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end-date-year" id="88D4CED4-5DBB-4AC5-228C-3644B0A21DA5">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>3E6A37E7-2CF3-D2E2-C74D-398AB97517C9</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est-person-hours" id="699719CF-7F22-CF68-7CCA-03BC78E6DEE4">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>64D385D3-BC1E-F8C7-4B7E-1390058F644D</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_dept_no" id="442B499B-037F-7C12-1CFC-75751E801E01">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>8758D497-2463-60A2-3BC7-AB79986E0F69</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57CD540E-8E02-6289-470D-73A9174FAB6D" referredColumn="F136C7CE-BA3A-DF8E-7754-3527DCD2957B"/>
+</associations>
+</Column>
+<Column name="Person_person_id" id="5359CEC3-8961-9568-B23B-F42CF19B3EC2">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>C3C58B9D-8153-B574-4121-6D413DBB656A</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="224DB85A-313B-DFED-85E2-1D3EEDF9C55D" referredColumn="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBAD443E-D431-BF87-C939-4FC9F938153C" name="Project_PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>46A850FB-4DD8-C8EF-F2AD-1214D23F95EE</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="580819C7-9CFB-F51E-4EAC-F0ABFE9A67D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F47DDC7-A323-48AC-F9E1-E2F6C8894345" name="Project_Person_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>46981AD4-E5EA-72EC-3577-E4E2AAE198DD</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5359CEC3-8961-9568-B23B-F42CF19B3EC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7F4F273-E139-D6F2-1B9C-0E261ACC75C7" name="Project_Department_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>5DF3B9B3-0C1F-5822-7070-94C8EC8179A3</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="442B499B-037F-7C12-1CFC-75751E801E01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

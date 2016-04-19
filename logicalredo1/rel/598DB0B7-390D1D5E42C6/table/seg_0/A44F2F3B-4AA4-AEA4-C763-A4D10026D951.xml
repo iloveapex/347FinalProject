@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A44F2F3B-4AA4-AEA4-C763-A4D10026D951" name="Person">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>4198BFA0-A3E6-310E-A5AB-D44C554D5563</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="C39E1F40-7778-3086-DC79-8BD10CB3420B">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>0A51B19E-49EC-0DF1-D879-9980EDEC2C85</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="F67568B8-305C-BB2E-1E50-EBB26C5D5867">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>62B62CB4-B211-1C96-D5CC-AFDA9F319B00</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="30853DDC-9E19-B552-CD4F-575A69907EB0">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>8C09EE6C-48C6-0242-C53E-04C44C705D8E</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="home_address" id="07D17070-AFD6-DD01-4E56-0BFAF328C73F">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>C5C4ADB8-6819-1040-E6B8-59522E87C1BA</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zipcode" id="AC73CCD9-BF8A-4B05-0DB2-621A59CFCCE2">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>178C615F-2D35-DCE4-C6E9-5145F0F2D187</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="home_phone" id="2394D645-A08D-DE6B-5135-3238BF2B2403">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>EA1D4EF5-0466-5321-23D9-30D625B07F84</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="us_citizen" id="FABD4183-FBFA-10A3-D6C1-F1BEC47F5520">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>EB3568A2-37AC-936C-C3B1-4DB1C18FF415</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_id" id="215A736F-8E46-9C94-9EAD-6ACA4835E9A6">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>21DCB4B9-3C66-603B-2E8E-726925D4D80B</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="EAB9C003-3C1C-C66E-BCE6-404687A2FFD3">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>30BA5A26-50C8-05DF-4088-8983B866D9A8</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary_exception" id="CBF76F95-DEAB-C2E5-A44D-D9969C971B6D">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>EA9F49D6-CC00-237D-A49D-09ACC8492486</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsFired" id="5B0EC660-AFEB-E18B-3568-C7D3C995AAAF">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>0211CD69-4610-C2F0-7191-E55F5AEC4CDD</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="B070FC93-628A-93E7-02D6-38B218E0E56C">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>B47E6083-76AB-A0A1-762F-0661D6E392EF</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="43200ED4-AE62-9E21-14DF-4895A3C4065C">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>8E9D53B9-D88B-176F-BBAC-A57A1F31AB52</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10656C09-51CB-1E8F-0AD0-218D27CF7FAF" referredColumn="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</associations>
+</Column>
+<Column name="Person_person_id2" id="3F929135-B221-D749-FCC3-2EBAA0EDBEC2">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>AD9EA8B0-CC76-766C-79AB-C1F657B1A580</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0AF9339-AE5C-06C4-8408-86CDF24E4F3A" referredColumn="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</associations>
+</Column>
+<Column name="Department_dept_no" id="8AA70677-204D-3BD4-1751-87E2B1D46284">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>F93CE385-0F6A-BFD6-E57A-F482C527D521</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2283D16C-AC7F-29DA-51F9-46C24DEF1F46" referredColumn="F136C7CE-BA3A-DF8E-7754-3527DCD2957B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AB6FC16-96E3-D2A0-478C-2E8D67FEB9DC" name="Person_PK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>D50AB463-479F-80F5-7592-55B4339FC1F7</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C39E1F40-7778-3086-DC79-8BD10CB3420B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D57BE41A-2DF8-FCD3-6B74-2D12773D7ED8" name="Person__IDX">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>789EE478-65BC-F7F8-BE62-C665E04C7C09</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="43200ED4-AE62-9E21-14DF-4895A3C4065C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="785B8D6E-D1CA-8F2E-B8A3-F6A2A35EAAED" name="Person_Person_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>789EE478-65BC-F7F8-BE62-C665E04C7C09</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43200ED4-AE62-9E21-14DF-4895A3C4065C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C03E515-CFEC-2B2C-230F-63AD42CCC871" name="Person_Person_FKv2">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>583D2A7C-44AD-D24C-2130-02971AECDEFF</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F929135-B221-D749-FCC3-2EBAA0EDBEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BC790C7-C667-3C2C-25D9-B09F02896556" name="Person_Department_FK">
+<createdBy>thefo</createdBy>
+<createdTime>2016-03-27 01:36:39 UTC</createdTime>
+<generatorID>FA759976-317C-33D3-3898-C6685C08343B</generatorID>
+<ownerDesignName>logicalredo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AA70677-204D-3BD4-1751-87E2B1D46284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
